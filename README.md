@@ -2,7 +2,7 @@
 
 ---
 
-### Function composition
+###### Function composition
 
 ```erlang
 Fn = fn:compose(fun(X) -> X + X end, fun(X) -> X * 4 end)
@@ -12,7 +12,7 @@ Fn(12) % => 96
 
 ---
 
-### Multiple function composition
+###### Multiple function composition
 
 ```erlang
 Fn = fn:compose(
@@ -26,7 +26,7 @@ Fn(13) % => 62
 
 ---
 
-### Naive application
+###### Naive application
 
 ```erlang
 Val = fn:naive(
@@ -39,7 +39,7 @@ Val % => 50
 
 ---
 
-### Error monad application
+###### Error monad application
 
 ```erlang
 Val1 = fn:error_monad(
@@ -59,7 +59,7 @@ Val2 % => {error, something_went_wrong}
 
 ---
 
-### Partial application
+###### Partial application
 
 ```erlang
 Fn1 = fn:partial(fun lists:map/2, [fun erlang:list_to_atom/1])
