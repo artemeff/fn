@@ -2,7 +2,7 @@
 
 ---
 
-###### Function composition
+###### Function composition `(f ∘ g)(x) = f(g(x))`
 
 ```erlang
 Fn = fn:compose(fun(X) -> X + X end, fun(X) -> X * 4 end)
@@ -12,7 +12,7 @@ Fn(12) % => 96
 
 ---
 
-###### Multiple function composition
+###### Multiple function composition `(f ∘ g ∘ h)(x) = f(g(h(x)))`
 
 ```erlang
 Fn = fn:compose(
@@ -26,7 +26,7 @@ Fn(13) % => 62
 
 ---
 
-###### Naive application
+###### Naive application `f $ g $ h $ x = f(g(h(x)))`
 
 ```erlang
 Val = fn:naive(
