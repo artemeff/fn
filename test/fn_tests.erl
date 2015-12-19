@@ -1,4 +1,4 @@
--module(fn_test).
+-module(fn_tests).
 -include_lib("eunit/include/eunit.hrl").
 
 compose_fn_test() ->
