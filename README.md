@@ -1,4 +1,4 @@
-### fn [![Build Status](https://img.shields.io/travis/artemeff/fn.svg)](https://travis-ci.org/artemeff/fn)
+### fn [![Build Status](https://img.shields.io/travis/artemeff/fn.svg)](https://travis-ci.org/artemeff/fn) [![Hex.pm](https://img.shields.io/hexpm/v/fn.svg)](fn)
 
 ---
 
